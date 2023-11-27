@@ -11,7 +11,7 @@ for i in range(len(data)):
 
 # Function to call the OpenAI API and get an extractive summary
 def get_extractive_summary(text):
-    api_key = "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"  # Replace with your actual OpenAI API key
+    api_key = ""  # Replace with your actual OpenAI API key
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
